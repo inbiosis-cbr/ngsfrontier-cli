@@ -1,0 +1,32 @@
+{
+  "name": "ngsfrontier-cli",
+  "version": "1.0.0",
+  "authors": [
+    "KK <kkloke86@zetilab.org>"
+  ],
+  "description": "NGSFrontier Commandline Interface cum API gateway",
+  "main": "index.php",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "NGSFrontier",
+    "CLI",
+    "API",
+    "PHP",
+    "Yii"
+  ],
+  "license": "MIT",
+  "homepage": "http://ngsfrontier.inbiosis.ws",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}

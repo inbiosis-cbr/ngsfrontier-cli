@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+defined('YII_DEBUG') or define('YII_DEBUG',true);
+
+//PHP Settings
+date_default_timezone_set ('Asia/Kuala_Lumpur');
+
+// change the following paths if necessary
+$yii=dirname(__FILE__).'/engine/yii.php';
+
+// include Yii bootstrap file
+require_once($yii);
+
+// create application instance and run
+$config=dirname(__FILE__).'/protected/config/console.php';
+$app = Yii::createConsoleApplication($config);
+
+$app->run();
